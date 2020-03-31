@@ -2,229 +2,229 @@ let initialState = {
     potPresets: [
         {
             name: "Plant Pot 0",
-            price: 10,
+            price: 20,
             identity: 0
         },
         {
             name: "Plant Pot 1",
-            price: 10,
+            price: 20,
             identity: 1
         },
         {
             name: "Plant Pot 2",
-            price: 10,
+            price: 20,
             identity: 2
         },
         {
             name: "Plant Pot 3",
-            price: 10,
+            price: 20,
             identity: 3
         },
         {
             name: "Plant Pot 4",
-            price: 10,
+            price: 20,
             identity: 4
         },
         {
             name: "Plant Pot 5",
-            price: 10,
+            price: 20,
             identity: 5
         },
         {
             name: "Plant Pot 6",
-            price: 10,
+            price: 20,
             identity: 6
         },
         {
             name: "Plant Pot 7",
-            price: 10,
+            price: 20,
             identity: 7
         },
         {
             name: "Plant Pot 8",
-            price: 10,
+            price: 20,
             identity: 8
         },
         {
             name: "Plant Pot 9",
-            price: 10,
+            price: 20,
             identity: 9
         }
     ],
     plantPresets: [
         {
             name: "Plant A",
-            hydrationMax: 50,
-            yieldMax: 50,
-            seedPrice: 10,
+            hydrationMax: 30,
+            yieldMax: 20,
+            seedPrice: 5,
             fruitValue: 1,
-            plantValue: 15,
-            lifeStageTime: [2, 3, 4, 5, 3],
+            plantValue: 10,
+            lifeStageTime: [10, 15, 20, 25, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 0
         },
         {
             name: "Plant B",
-            hydrationMax: 80,
-            yieldMax: 80,
-            seedPrice: 20,
-            fruitValue: 2,
-            plantValue: 25,
-            lifeStageTime: [5, 6, 7, 8, 5],
+            hydrationMax: 40,
+            yieldMax: 30,
+            seedPrice: 8,
+            fruitValue: 1,
+            plantValue: 12,
+            lifeStageTime: [15, 20, 25, 30, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 1
         },
         {
             name: "Plant C",
-            hydrationMax: 10,
+            hydrationMax: 30,
             yieldMax: 20,
             seedPrice: 5,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 10,
+            lifeStageTime: [10, 15, 20, 25, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 2
         },
         {
             name: "Plant D",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
+            hydrationMax: 40,
+            yieldMax: 30,
+            seedPrice: 8,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 12,
+            lifeStageTime: [15, 20, 25, 30, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 3
         },
         {
             name: "Plant E",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 70,
+            yieldMax: 30,
+            seedPrice: 15,
+            fruitValue: 2,
+            plantValue: 20,
+            lifeStageTime: [20, 30, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 4
         },
         {
             name: "Plant F",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 70,
+            yieldMax: 30,
+            seedPrice: 15,
+            fruitValue: 2,
+            plantValue: 20,
+            lifeStageTime: [20, 30, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 5
         },
         {
             name: "Plant G",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
+            hydrationMax: 30,
+            yieldMax: 40,
+            seedPrice: 8,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 12,
+            lifeStageTime: [15, 20, 25, 30, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 6
         },
         {
             name: "Plant H",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
+            hydrationMax: 30,
+            yieldMax: 40,
+            seedPrice: 8,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 12,
+            lifeStageTime: [15, 20, 25, 30, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 7
         },
         {
             name: "Plant I",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
+            hydrationMax: 30,
+            yieldMax: 40,
+            seedPrice: 8,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 12,
+            lifeStageTime: [15, 20, 25, 30, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 8
         },
         {
             name: "Plant J",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 95,
+            yieldMax: 35,
+            seedPrice: 20,
+            fruitValue: 3,
+            plantValue: 25,
+            lifeStageTime: [30, 40, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 9
         },
         {
             name: "Plant K",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 95,
+            yieldMax: 35,
+            seedPrice: 20,
+            fruitValue: 3,
+            plantValue: 25,
+            lifeStageTime: [30, 40, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 10
         },
         {
             name: "Plant L",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 95,
+            yieldMax: 35,
+            seedPrice: 20,
+            fruitValue: 3,
+            plantValue: 25,
+            lifeStageTime: [30, 40, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 11
         },
         {
             name: "Plant M",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 95,
+            yieldMax: 35,
+            seedPrice: 20,
+            fruitValue: 3,
+            plantValue: 25,
+            lifeStageTime: [30, 40, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 12
         },
         {
             name: "Plant N",
-            hydrationMax: 10,
+            hydrationMax: 30,
             yieldMax: 20,
             seedPrice: 5,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 10,
+            lifeStageTime: [10, 15, 20, 25, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 13
         },
         {
             name: "Plant O",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
+            hydrationMax: 40,
+            yieldMax: 30,
+            seedPrice: 8,
             fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            plantValue: 12,
+            lifeStageTime: [15, 20, 25, 30, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 14
         },
         {
             name: "Plant P",
-            hydrationMax: 10,
-            yieldMax: 20,
-            seedPrice: 5,
-            fruitValue: 1,
-            plantValue: 40,
-            lifeStageTime: [2, 3, 4, 5, 5],
+            hydrationMax: 70,
+            yieldMax: 30,
+            seedPrice: 15,
+            fruitValue: 2,
+            plantValue: 20,
+            lifeStageTime: [20, 30, 40, 50, 5],
             lifeStageName: ["Seed", "Sprout", "Sapling", "Growth", "Ripeness"],
             identity: 15
         }
@@ -238,7 +238,7 @@ let initialState = {
             },
             {
                 seedName: "Plant B's Seed",
-                seedPrice: 5,
+                seedPrice: 8,
                 identity: 1
             },
             {
@@ -248,52 +248,52 @@ let initialState = {
             },
             {
                 seedName: "Plant D's Seed",
-                seedPrice: 5,
+                seedPrice: 8,
                 identity: 3
             },
             {
                 seedName: "Plant E's Seed",
-                seedPrice: 5,
+                seedPrice: 15,
                 identity: 4
             },
             {
                 seedName: "Plant F's Seed",
-                seedPrice: 5,
+                seedPrice: 15,
                 identity: 5
             },
             {
                 seedName: "Plant G's Seed",
-                seedPrice: 5,
+                seedPrice: 8,
                 identity: 6
             },
             {
                 seedName: "Plant H's Seed",
-                seedPrice: 5,
+                seedPrice: 8,
                 identity: 7
             },
             {
                 seedName: "Plant I's Seed",
-                seedPrice: 5,
+                seedPrice: 8,
                 identity: 8
             },
             {
                 seedName: "Plant J's Seed",
-                seedPrice: 5,
+                seedPrice: 20,
                 identity: 9
             },
             {
                 seedName: "Plant K's Seed",
-                seedPrice: 5,
+                seedPrice: 20,
                 identity: 10
             },
             {
                 seedName: "Plant L's Seed",
-                seedPrice: 5,
+                seedPrice: 20,
                 identity: 11
             },
             {
                 seedName: "Plant M's Seed",
-                seedPrice: 5,
+                seedPrice: 20,
                 identity: 12
             },
             {
@@ -303,70 +303,70 @@ let initialState = {
             },
             {
                 seedName: "Plant O's Seed",
-                seedPrice: 5,
+                seedPrice: 8,
                 identity: 14
             },
             {
                 seedName: "Plant P's Seed",
-                seedPrice: 5,
+                seedPrice: 15,
                 identity: 15
             }
         ],
         pots: [
             {
                 potName: "Plant Pot 0",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 0
             },
             {
                 potName: "Plant Pot 1",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 1
             },
             {
                 potName: "Plant Pot 2",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 2
             },
             {
                 potName: "Plant Pot 3",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 3
             },
             {
                 potName: "Plant Pot 4",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 4
             },
             {
                 potName: "Plant Pot 5",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 5
             },
             {
                 potName: "Plant Pot 6",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 6
             },
             {
                 potName: "Plant Pot 7",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 7
             },
             {
                 potName: "Plant Pot 8",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 8
             },
             {
                 potName: "Plant Pot 9",
-                potPrice: 10,
+                potPrice: 20,
                 identity: 9
             }
         ],
-        land: 50,
-        water: 5,
-        paper: 10
+        land: 300,
+        water: 3,
+        paper: 40
     },
     greetingsPresets: [
         "HI! HOW ARE YOU TODAY?",
@@ -408,13 +408,13 @@ let initialState = {
     userData: {
         plantPotList: [],
         diaryList: [],
-        ownedSeeds: [2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        ownedPots: [2, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+        ownedSeeds: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        ownedPots: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         ownedFruits: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        ownedCoins: 900,
-        ownedPaper: 0,
-        ownedWater: 100,
-        ownedLandMax: 30,
+        ownedCoins: 100,
+        ownedPaper: 2,
+        ownedWater: 60,
+        ownedLandMax: 3
     }
 };
 
