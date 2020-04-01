@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.913513f7.chunk.css",
+    "main.js": "/static/js/main.cce823aa.chunk.js",
+    "main.js.map": "/static/js/main.cce823aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a7eea17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a7eea17.js.map",
+    "static/js/2.44ef4cd4.chunk.js": "/static/js/2.44ef4cd4.chunk.js",
+    "static/js/2.44ef4cd4.chunk.js.map": "/static/js/2.44ef4cd4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d93cd3cf7dc1482f84030b21cc24da47.js": "/precache-manifest.d93cd3cf7dc1482f84030b21cc24da47.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.913513f7.chunk.css.map": "/static/css/main.913513f7.chunk.css.map",
+    "static/js/2.44ef4cd4.chunk.js.LICENSE.txt": "/static/js/2.44ef4cd4.chunk.js.LICENSE.txt",
+    "static/media/botanica.png": "/static/media/botanica.d9cb94ce.png",
+    "static/media/botanica1.png": "/static/media/botanica1.490036e7.png",
+    "static/media/land.jpg": "/static/media/land.acff303d.jpg",
+    "static/media/paper.jpg": "/static/media/paper.00091bc1.jpg",
+    "static/media/water.jpg": "/static/media/water.f07576fe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a7eea17.js",
+    "static/js/2.44ef4cd4.chunk.js",
+    "static/css/main.913513f7.chunk.css",
+    "static/js/main.cce823aa.chunk.js"
+  ]
+}
