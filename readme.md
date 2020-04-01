@@ -58,3 +58,9 @@ Javascript (ES5/ES6), HTML5, CSS3, React.js, Redux.js, React-Router-Dom, Redux-T
 2. **node ./botanica-server.js** - Host and start the local server (or host it on a web server)
 3. Use browser to visit http://localhost:8080/
 4. Register an account or log in an existing account and start journey
+
+
+
+### See Also
+
+botanica-client: https://github.com/glv1at118/botanica-client
