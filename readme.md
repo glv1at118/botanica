@@ -16,15 +16,15 @@ Botanica is a fun full stack project designed and developed by me using the MERN
 
 ### Live Demos
 
-https://youtu.be/HBHhfoWkHAE (video length 2:41)
+https://youtu.be/HBHhfoWkHAE (video length 2:41, intro about the login and register)
 
-https://youtu.be/7dVBv8R6sAM (video length 5:30)
+https://youtu.be/7dVBv8R6sAM (video length 5:30, intro about the warehouse and shop)
 
-https://youtu.be/aySA3lroYPg (video length 1:58)
+https://youtu.be/aySA3lroYPg (video length 1:58, intro about the diary)
 
-https://youtu.be/4G9DSn89jbY (video length 2:11)
+https://youtu.be/4G9DSn89jbY (video length 2:11, intro about the encyclopedia)
 
-https://youtu.be/eMaEO0m3Fjo (video length 3:48)
+https://youtu.be/eMaEO0m3Fjo (video length 3:48, intro about saving and retrieving data from cloud)
 
 
 
